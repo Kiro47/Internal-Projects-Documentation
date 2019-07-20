@@ -23,15 +23,21 @@ Domain set to "virtnet.internal"
 * squid
 
 # Routing table notes
+
 ## Default Gateways
+
 * GW_WAN(default) GATEWAY: 192.168.10.1 , Monitor: 192.168.10.1
 * WAN_DHCP GaATEWAY: 192.168.l1.l , Monitor: 192.168.1.1
+
 ## WAN IP
 Set statically via Layer 1 NAT router config
 ## LAN Config
+
 IPV4 Range: 10.5.0.1/16
+
 ## DNS Resolver
 * Enable
 * Register DHCP leases in DNS Resolver: enabled
 * Register DHCP static mappings in the DNS resolver: enabled
+
 What this does: auto adds a DNS entry on the internal DNS router.  This allows things checking for their dns name to resolve to their proper IP address. (Namely Katello/Foreman and OpenVPN
