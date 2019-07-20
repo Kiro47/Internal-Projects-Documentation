@@ -8,6 +8,7 @@ Installed onto a pair of 16GB SandDisk Cruzer USB's in RAID 1 (it works, and I d
 ESXI is a rather simple and easy to use hypervisor that is an industry standard and also looks good on a resume.  My alternative that I'd also look into were Xen and SmartOS. Xen was neat but really didn't offer many improvements besides the 8 logical CPU count on the ESXI free license.  SmartOS was an extremely powerful contender with a ton of great capabilities like native docker containers running on bare metal and stupid powerful templating abilities via yaml configuration files.  However, it's far too complex to be used as a home/hobby hypervisor IMO.  It wasn't worth the time to put into it.
 
 #### Host specs:
+```
 Chassis: R710
 CPU: 2x Xeon 5660 @ 2.8 GHz
 Logical Core Count: 24
@@ -23,3 +24,4 @@ Storage:
   6x 1TB WD White HDDs (RAID 6)
   2x 120GB ADATA SP 550's (RAID 1)
   1x NFS Share: Lacustrine (The ever expanding money dumpster fire) TODO: add link once I make the page
+```
