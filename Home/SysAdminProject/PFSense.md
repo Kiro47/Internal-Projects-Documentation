@@ -6,12 +6,25 @@
   * 4 vCPUs
   * 8G RAM (Overkill, probably will move it down to 4G when needed)
   * 70G Disk (Hella overkill, really need like 20G tops)
+
 # Install
+
 Install like normal using PFSense ISO
+
 Bind NAT NIC to WAN interface
+
 Bind Internal virt NIC to LAN interface
+
 Hostname set to "pfSense"
-Domain set to "virtnet.internal"
+
+Domain set to "kiro47.virtnet"
+
+>  Is this defined by ICANN to be proper?  
+
+No, but they really don't provide any localized TLD options that aren't used for testing or common loopbacks like localhost.
+
+* http://www.faqs.org/rfcs/rfc2606.html
+* http://data.iana.org/TLD/tlds-alpha-by-domain.txt
 
 # Extra Packages
 * Lightsquid
